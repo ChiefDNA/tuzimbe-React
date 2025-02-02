@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import Administrator from './Administrator';
+import { useNavigate } from 'react-router-dom';
 
 const Login = ({ onSuccess }) => {
     const [username, setUsername] = useState('');
@@ -8,6 +8,7 @@ const Login = ({ onSuccess }) => {
     const [password, setPassword] = useState('');
     const [choice, setChoice] = useState('email');
     const [error, setError] = useState(null);
+    const navigate = useNavigate();
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -23,11 +24,11 @@ const Login = ({ onSuccess }) => {
 
         try {
             const response = await axios.post('http://localhost:8000/api/login/', loginData);
-            console.log(response.data);
+            
             sessionStorage.setItem('LoggedIn', JSON.stringify(response.data.user));
             sessionStorage.setItem('expiresAt', Date.now() + 3600000);
             onSuccess();
-            return <Administrator />
+            navigate('/');
         } catch (error) {
             setError(error.response?.data?.message || "Login failed");
         }

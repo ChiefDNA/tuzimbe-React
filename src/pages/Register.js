@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 const Register = () => {
     const [fisrtname, setFirstname] = useState('');
@@ -11,7 +12,7 @@ const Register = () => {
     const [address, setAddress] = useState('')
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPasswod] =useState('');
-
+    const navigate = useNavigate();
     const handleSubmit =async (event) =>{
         event.preventDefault();
         try {
@@ -25,10 +26,11 @@ const Register = () => {
                 tellNo,
                 password,
             });
-            console.log(response.data);
+            alert(response.data?.message ||"Registration Successfull");
+            navigate('/Login');
         } catch (error){
            // if (error.response && error.response.data){
-                console.error(error.response.data);//iff response.data is defined
+                console.error(error.response?.data?.message || "Registration Falied");//iff response.data is defined
            // }else{
            //     console.error(error.message);
           //  }
