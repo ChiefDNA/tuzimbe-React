@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/tuzimbe-React/static/css/main.f5731a88.css",
-    "main.js": "/tuzimbe-React/static/js/main.f2583977.js",
+    "main.css": "/tuzimbe-React/static/css/main.2062b33d.css",
+    "main.js": "/tuzimbe-React/static/js/main.e92e8c73.js",
     "static/media/vecteezy_landscape-of-house-under-construction-site-with_2233901.jpg": "/tuzimbe-React/static/media/vecteezy_landscape-of-house-under-construction-site-with_2233901.b4cdb96e28d33759074d.jpg",
     "static/media/vecteezy_framing-interior-of-brand-new-home_13959483.jpg": "/tuzimbe-React/static/media/vecteezy_framing-interior-of-brand-new-home_13959483.a17d3e7090149ab5074f.jpg",
     "static/media/vecteezy_hr-recruitment-business-concept_6899445.jpg": "/tuzimbe-React/static/media/vecteezy_hr-recruitment-business-concept_6899445.57b564278e42431bd3fd.jpg",
     "static/media/vecteezy_network-community-teamwork-and-social-network-concept_6694144.jpg": "/tuzimbe-React/static/media/vecteezy_network-community-teamwork-and-social-network-concept_6694144.edaf97d3a199aa87b560.jpg",
     "static/media/vecteezy_ai-generated-construction-of-a-new-residential-house_35816488.jpg": "/tuzimbe-React/static/media/vecteezy_ai-generated-construction-of-a-new-residential-house_35816488.16a4add81b770be3afae.jpg",
     "static/media/Screenshot 4.png": "/tuzimbe-React/static/media/Screenshot 4.d5de427b85822745c373.png",
+    "static/media/home2.png": "/tuzimbe-React/static/media/home2.4fb72962809110051100.png",
+    "static/media/home.png": "/tuzimbe-React/static/media/home.8f49f07941297a565f89.png",
+    "static/media/data.png": "/tuzimbe-React/static/media/data.2e49e52c8a670064e2d4.png",
+    "static/media/administrator.png": "/tuzimbe-React/static/media/administrator.74283854a509574ef50c.png",
+    "static/media/materials.png": "/tuzimbe-React/static/media/materials.3b175493010ac0a298aa.png",
+    "static/media/logout.png": "/tuzimbe-React/static/media/logout.940ef165d606a19fb50f.png",
+    "static/media/attendece.png": "/tuzimbe-React/static/media/attendece.0fcf7b2de111ac06db68.png",
+    "static/media/history.png": "/tuzimbe-React/static/media/history.6f38f78355aa90f3dc2f.png",
     "index.html": "/tuzimbe-React/index.html",
-    "main.f5731a88.css.map": "/tuzimbe-React/static/css/main.f5731a88.css.map",
-    "main.f2583977.js.map": "/tuzimbe-React/static/js/main.f2583977.js.map"
+    "main.2062b33d.css.map": "/tuzimbe-React/static/css/main.2062b33d.css.map",
+    "main.e92e8c73.js.map": "/tuzimbe-React/static/js/main.e92e8c73.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5731a88.css",
-    "static/js/main.f2583977.js"
+    "static/css/main.2062b33d.css",
+    "static/js/main.e92e8c73.js"
   ]
 }
